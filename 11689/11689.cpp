@@ -3,7 +3,7 @@
 using namespace std;
 using ll = long long;
 
-// 오일러 피 함수 구현 코드
+// 오일러 피 함수
 ll totient(ll n){
     ll phi = n;
     for(ll i = 2; i*i <= n; i++){
