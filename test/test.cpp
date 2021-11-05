@@ -3,13 +3,9 @@
 using namespace std;
 
 int main() {
-   
-   double a, b, c;
-   
-   cin >> a >> b;
+   string s;
+   s="asdf";
+   s.replace(1, 2, "a");
 
-   printf("%.10f", a/b);
-
-
-   return 0;
+   cout << s;
 }
